@@ -21,14 +21,21 @@
                 android:id="@+id/appbarlayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@color/color_all2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
                 app:liftOnScroll="true">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:title="@string/app_name" />
 
                 <com.google.android.material.tabs.TabLayout
                     android:id="@+id/tablayout"
                     android:layout_width="match_parent"
+                    android:background="@color/color_all2"
                     android:layout_height="match_parent">
 
                 </com.google.android.material.tabs.TabLayout>
@@ -39,9 +46,9 @@
                 android:id="@+id/viewPager"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/appbarlayout"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/appbarlayout" />
+                app:layout_constraintStart_toStartOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
@@ -52,17 +59,5 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:menu="@menu/menu" />
-
-    <!--    <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/bottomNav"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_alignParentBottom="true"
-            app:itemActiveIndicatorStyle="@color/white"
-            app:labelVisibilityMode="unlabeled"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:menu="@menu/menu" />-->
 
 </androidx.drawerlayout.widget.DrawerLayout>

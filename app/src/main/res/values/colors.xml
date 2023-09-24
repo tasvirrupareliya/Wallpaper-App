@@ -2,4 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="color_all">#2B3C98</color>
+    <color name="color_all2">#5BABCF</color>
+    <color name="Selected">#FFD369</color>
+    <color name="transparentWidget">#da393e46</color>
+    <color name="transparent">#00000000</color>
+    <color name="Buttons">#EEEEEE</color>
+    <color name="teal_200">#FF03DAC5</color>
+
 </resources>

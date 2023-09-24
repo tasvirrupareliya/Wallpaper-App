@@ -6,4 +6,11 @@
     </style>
 
     <style name="Theme.Wallpaper" parent="Base.Theme.Wallpaper" />
+
+    <style name="ImageViewActivityToolBarStyle">
+        <item name="android:textColorSecondary">#fff</item>
+        <item name="colorControlNormal">#fff</item>
+        <item name="colorPrimary">#fff</item>
+        <item name="textFillColor">#fff</item>
+    </style>
 </resources>

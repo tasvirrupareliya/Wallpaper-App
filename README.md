@@ -1,4 +1,4 @@
-Gallery Wallpapers App
+# HD Wallpapers App
 
 🚀 Explore a stunning collection of wallpapers with our Gallery Wallpapers App! 🌈
 
